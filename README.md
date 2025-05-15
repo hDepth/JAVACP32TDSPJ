@@ -26,13 +26,13 @@ H2 Database (ou configure outro via application.properties)
 JUnit para testes
 
 ⚙️ Como rodar localmente
+
 Clone o repositório:
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/checkpoint.git
+git clone https://github.com/hDepth/JAVACP32TDSPJ.git
 cd checkpoint
+
+
 Compile e rode o projeto:
 
 bash
@@ -41,12 +41,8 @@ Editar
 ./mvnw spring-boot:run
 Acesse a API:
 
-O backend estará disponível em:
-
-arduino
-Copiar
-Editar
 http://localhost:8080
+
 🔎 Endpoints principais
 Recurso	Método	Endpoint
 Motos	GET	/motos
@@ -57,21 +53,3 @@ Filiais	GET	/filiais
 Filiais	POST	/filiais
 Filiais	PUT	/filiais/{id}
 Filiais	DELETE	/filiais/{id}
-
-📁 Estrutura de diretórios
-plaintext
-Copiar
-Editar
-checkpoint/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com.mottujavaadv.checkpoint/
-│   │   │       ├── controller/
-│   │   │       ├── service/
-│   │   │       ├── model/
-│   │   │       └── repository/
-│   │   └── resources/
-│   │       └── application.properties
-│   └── test/
-├── pom.xml
